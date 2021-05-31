@@ -28,8 +28,5 @@ export function Header({ openModal }: HeaderProps) {
         </nav>
       </header>
     </Container>
-  )
-  
+  );
 };
-
-export default Header;

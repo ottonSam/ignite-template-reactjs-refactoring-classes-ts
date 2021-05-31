@@ -15,7 +15,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
   icon?: any;
 }
 
-const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
+export const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
 
@@ -56,5 +56,3 @@ const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
     </Container>
   );
 };
-
-export default Input;
